@@ -1,0 +1,155 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'uart'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol
+high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o
+uart_map.ncd uart.ngd uart.pcf 
+Target Device  : xc3s50
+Target Package : pq208
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Thu Nov 10 12:09:50 2022
+
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:2780 - The register "rx_reg_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_4" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_5" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_6" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_reg_7" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_busy" has the property IOB=TRUE, but it did
+   not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "tx_empty_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_sample_cnt_mux0000<3>_SW0_FRB" has the
+   property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+WARNING:Pack:2780 - The register "tx_cnt_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "tx_cnt_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "tx_cnt_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "tx_cnt_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_empty_cmp_eq00011_FRB" has the property
+   IOB=TRUE, but it did not join an IO component because it is not connected to
+   any IO element.
+WARNING:Pack:2780 - The register "rx_sample_cnt_0" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rx_sample_cnt_1" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rx_sample_cnt_2" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rx_sample_cnt_3" has the property IOB=TRUE,
+   but it did not join an IO component because it is not connected to any IO
+   element.
+WARNING:Pack:2780 - The register "rx_d2" has the property IOB=TRUE, but it did
+   not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_cnt_0" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_cnt_1" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_cnt_2" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+WARNING:Pack:2780 - The register "rx_cnt_3" has the property IOB=TRUE, but it
+   did not join an IO component because it is not connected to any IO element.
+Running delay-based LUT packing...
+Updating timing models...
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:1a13) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:1a13) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:1a13) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+.........
+Phase 4.2  Initial Clock and IO Placement (Checksum:ff98373) REAL time: 1 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:ff98373) REAL time: 1 secs 
+
+Phase 6.3  Local Placement Optimization
+...........
+Phase 6.3  Local Placement Optimization (Checksum:8f8f7a8d) REAL time: 1 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:8f8f7a8d) REAL time: 1 secs 
+
+Phase 8.4  Local Placement Optimization
+..
+Phase 8.4  Local Placement Optimization (Checksum:8f8f7a8d) REAL time: 1 secs 
+
+Phase 9.28  Local Placement Optimization
+Phase 9.28  Local Placement Optimization (Checksum:8f8f7a8d) REAL time: 1 secs 
+
+Phase 10.8  Global Placement
+..
+Phase 10.8  Global Placement (Checksum:550239dd) REAL time: 1 secs 
+
+Phase 11.29  Local Placement Optimization
+Phase 11.29  Local Placement Optimization (Checksum:550239dd) REAL time: 1 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:550239dd) REAL time: 1 secs 
+
+Phase 13.18  Placement Optimization
+Phase 13.18  Placement Optimization (Checksum:51b4ba79) REAL time: 2 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:51b4ba79) REAL time: 2 secs 
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU  time to Placer completion: 2 secs 
+Running post-placement packing...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   25
+Logic Utilization:
+  Number of Slice Flip Flops:            25 out of   1,536    1%
+  Number of 4 input LUTs:                61 out of   1,536    3%
+Logic Distribution:
+  Number of occupied Slices:             41 out of     768    5%
+    Number of Slices containing only related logic:      41 out of      41 100%
+    Number of Slices containing unrelated logic:          0 out of      41   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:          61 out of   1,536    3%
+  Number of bonded IOBs:                 27 out of     124   21%
+    IOB Flip Flops:                      20
+  Number of BUFGMUXs:                     2 out of       8   25%
+
+Average Fanout of Non-Clock Nets:                3.38
+
+Peak Memory Usage:  593 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+Mapping completed.
+See MAP report file "uart_map.mrp" for details.

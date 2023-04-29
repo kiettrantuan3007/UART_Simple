@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/kiet/Downloads/Exp-3-UART/UART_testbench_isim_beh.exe" -prj "/home/kiet/Downloads/Exp-3-UART/UART_testbench_beh.prj" "work.UART_testbench" "work.glbl" 

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.xst" -ofn "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.syr" 
+vhdtdtfi -lang verilog -prj Exp-3-UART -o C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.tfi -lib work C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART//UART_Module.v -module uart -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.xst" -ofn "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.syr" 
+xst -intstyle ise -ifn "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.xst" -ofn "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/uart.syr" 
+xst -intstyle ise -ifn "/home/kiet/Downloads/Exp-3-UART/uart.xst" -ofn "/home/kiet/Downloads/Exp-3-UART/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 uart.ngc uart.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o uart_map.ncd uart.ngd uart.pcf 
+par -w -intstyle ise -pl high -rl high -xe n -t 1 uart_map.ncd uart.ncd uart.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml uart.twx uart.ncd -o uart.twr uart.pcf 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Vinay/Desktop/VTU-Experiments-2021/Part-B/Exp-3-UART/xst"
+elaborate
+-ifn .prj
+-ifmt mixed
